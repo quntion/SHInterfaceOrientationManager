@@ -1,0 +1,22 @@
+{
+  "name": "SHInterfaceOrientationManager",
+  "version": "0.1.0",
+  "summary": "A short description of SHInterfaceOrientationManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/quntion/SHInterfaceOrientationManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "邵瑞波": "shaoyize@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/quntion/SHInterfaceOrientationManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SHInterfaceOrientationManager/Classes/**/*"
+}

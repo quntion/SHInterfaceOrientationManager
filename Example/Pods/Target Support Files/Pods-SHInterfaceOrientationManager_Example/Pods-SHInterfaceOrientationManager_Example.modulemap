@@ -1,0 +1,6 @@
+framework module Pods_SHInterfaceOrientationManager_Example {
+  umbrella header "Pods-SHInterfaceOrientationManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

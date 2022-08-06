@@ -1,0 +1,16 @@
+PODS:
+  - SHInterfaceOrientationManager (0.1.0)
+
+DEPENDENCIES:
+  - SHInterfaceOrientationManager (from `../`)
+
+EXTERNAL SOURCES:
+  SHInterfaceOrientationManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SHInterfaceOrientationManager: ecde3d663eb48eb6e61ab6a321d03dc5425bff9d
+
+PODFILE CHECKSUM: ae9221d0e11ed95fdca91ace3a71cdc1a758f818
+
+COCOAPODS: 1.11.2
