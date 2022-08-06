@@ -117,6 +117,60 @@ static NSString* sh_getStringWithOriMask(UIInterfaceOrientationMask oriMask) {
 
 // MARK: - Class Method
 
+/// 设置顶层视图控制的当前屏幕方向（便于在非UIViewController中调用）
+/// - Parameters:
+///   - ori: 目标屏幕方向
+///   - rootVc: 给定的遍历根节点控制器，如果给nil，则默认使用`UIApplication.sharedApplication.delegate.window.rootViewController`
++ (void)sh_forceInterfaceOrientationWith:(UIInterfaceOrientation)ori rootViewController:(nullable UIViewController *)rootVc {
+    if (!rootVc) {
+        rootVc = UIApplication.sharedApplication.delegate.window.rootViewController;
+    }
+    if (rootVc && [rootVc isKindOfClass:UIViewController.class]) {
+        while (rootVc) {
+            if (rootVc.presentedViewController) {
+                rootVc = rootVc.presentedViewController;
+            } else if (rootVc && [rootVc isKindOfClass:UINavigationController.class]) {
+                UIViewController *topVc = ((UINavigationController *)rootVc).topViewController;
+                if (topVc) {
+                    rootVc = topVc;
+                }
+            } else if (rootVc && [rootVc isKindOfClass:UITabBarController.class]) {
+                UIViewController *selectedVc = ((UITabBarController *)rootVc).selectedViewController;
+                if (selectedVc) {
+                    rootVc = selectedVc;
+                }
+            }
+        }
+        [rootVc setSh_preferredInterfaceOrientation:ori autoUpdateOrientation:YES];
+    }
+}
+
++ (UIViewController *)currentViewControllerWithRootVc:(UIViewController *)vc {
+    if ([vc isBeingDismissed] || [vc isMovingFromParentViewController]) {
+        vc = vc.parentViewController;
+        return [UIViewController currentViewControllerWithRootVc:vc];
+    }
+    if (vc.presentedViewController) {
+        vc = vc.parentViewController;
+        if (![vc isBeingDismissed] && ![vc isMovingFromParentViewController]) {
+            return [UIViewController currentViewControllerWithRootVc:vc.presentedViewController];
+        }
+    } else if ([vc isKindOfClass:[UINavigationController class]]) {
+        vc = [(UINavigationController *)vc visibleViewController];
+        if (![vc isBeingDismissed] && ![vc isMovingFromParentViewController]) {
+            return [UIViewController currentViewControllerWithRootVc:vc];
+        }
+    } else if ([vc isKindOfClass:[UITabBarController class]]) {
+        vc = [(UITabBarController *)vc selectedViewController];
+        if (![vc isBeingDismissed] && ![vc isMovingFromParentViewController]) {
+            return [UIViewController currentViewControllerWithRootVc:vc];
+        }
+    }
+    return vc;
+}
+
+// MARK: -
+
 + (void)load {
     sh_swizzleSelector(self, @selector(init), @selector(_sh_init));
     
@@ -152,30 +206,6 @@ static NSString *interfaceOrientationRuntimeKey = @"interfaceOrientationRuntimeK
 + (void)setSh_interfaceOrientationRuntimeEnable:(BOOL)enabled {
     SEL key = @selector(sh_interfaceOrientationRuntimeEnable);
     objc_setAssociatedObject(interfaceOrientationRuntimeKey, key, @(enabled), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
-
-+ (UIViewController *)currentViewControllerWithRootVc:(UIViewController *)vc {
-    if ([vc isBeingDismissed] || [vc isMovingFromParentViewController]) {
-        vc = vc.parentViewController;
-        return [UIViewController currentViewControllerWithRootVc:vc];
-    }
-    if (vc.presentedViewController) {
-        vc = vc.parentViewController;
-        if (![vc isBeingDismissed] && ![vc isMovingFromParentViewController]) {
-            return [UIViewController currentViewControllerWithRootVc:vc.presentedViewController];
-        }
-    } else if ([vc isKindOfClass:[UINavigationController class]]) {
-        vc = [(UINavigationController *)vc visibleViewController];
-        if (![vc isBeingDismissed] && ![vc isMovingFromParentViewController]) {
-            return [UIViewController currentViewControllerWithRootVc:vc];
-        }
-    } else if ([vc isKindOfClass:[UITabBarController class]]) {
-        vc = [(UITabBarController *)vc selectedViewController];
-        if (![vc isBeingDismissed] && ![vc isMovingFromParentViewController]) {
-            return [UIViewController currentViewControllerWithRootVc:vc];
-        }
-    }
-    return vc;
 }
 
 // MARK: - 总控制
