@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1703E8D6D93D5328A58907D822F2269C /* UIViewController+SHInterfaceOrientationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47856FA97537017E0ACA0A843A078F97 /* UIViewController+SHInterfaceOrientationManager.m */; };
 		1B6AC9D7EAD42F10F2E4E7E75C349C89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2DD21FF82FBBA7C0B7FDDB06D2ABDB08 /* SHInterfaceOrientationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323EFFCA9EEAF0502173A0AB9EBBEF4 /* SHInterfaceOrientationManager-dummy.m */; };
-		3EBAD67D8F73ACF720EC84B0B419D0A5 /* UIDevice+SHInterfaceOrientationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DE428D85F12A92D8A8387D4ECDEB48 /* UIDevice+SHInterfaceOrientationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40600E7B8A96C901E987A3730D9646F0 /* UIDevice+SHInterfaceOrientationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6221E5124744C90268FABC37DA9AF1 /* UIDevice+SHInterfaceOrientationManager.m */; };
-		4A18F071FD02F9A8A00A364D03710963 /* UIViewController+SHInterfaceOrientationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B9190F774DB1A46978CFB03EAB246A93 /* UIViewController+SHInterfaceOrientationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48B5D74E028E3734B3D0B902AD227276 /* UIViewController+SHInterfaceOrientationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D455BAE0EC3D88521ABBD4906711D774 /* UIViewController+SHInterfaceOrientationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D3E04FA72AD46EAF4B069A019B542E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		817D9D3F487E4FE08C8422885E106947 /* SHInterfaceOrientationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF58ADF467B6220593E4427F25700E27 /* SHInterfaceOrientationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97838FDF746B6E6F61CDE4394800C8AA /* Pods-SHInterfaceOrientationManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5173576A6C222731C5BCC5F742DE059B /* Pods-SHInterfaceOrientationManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F75A2A84373D8253EA1B9622A2123BB /* Pods-SHInterfaceOrientationManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B25003E40883F94760F2AB4464822DCD /* Pods-SHInterfaceOrientationManager_Example-dummy.m */; };
-		B5F4EDE6CFD1364A48AB73D3FEFEE85E /* UIViewController+SHInterfaceOrientationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049469A98E033F208590A8B0B2D8877F /* UIViewController+SHInterfaceOrientationManager.m */; };
-		D7E8399F3F72C24E12900EE2C3449E25 /* SHInterfaceOrientationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9D6E887929D1F0F7FCEE35F92C37C4 /* SHInterfaceOrientationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5EABA67CF67F41AEE4EC510DE0FE901 /* UIDevice+SHInterfaceOrientationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F08AF659EF20B5F6B4E4DEDD25993C2 /* UIDevice+SHInterfaceOrientationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C69C49B5D29ABBED775ABDF9D23B6991 /* UIDevice+SHInterfaceOrientationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 306B641CBE4AE1D4381491F6CEB54D79 /* UIDevice+SHInterfaceOrientationManager.m */; };
+		CD8EF57ECBC300D7AECB5531895582C5 /* SHInterfaceOrientationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB871F9DA89CA138C6A87B53917EFBDD /* SHInterfaceOrientationManager-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,33 +30,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		049469A98E033F208590A8B0B2D8877F /* UIViewController+SHInterfaceOrientationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SHInterfaceOrientationManager.m"; path = "SHInterfaceOrientationManager/Classes/UIViewController+SHInterfaceOrientationManager.m"; sourceTree = "<group>"; };
-		04ED7CB8DA6DA25602D2817E115759D0 /* SHInterfaceOrientationManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SHInterfaceOrientationManager-Info.plist"; sourceTree = "<group>"; };
-		0D6221E5124744C90268FABC37DA9AF1 /* UIDevice+SHInterfaceOrientationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+SHInterfaceOrientationManager.m"; path = "SHInterfaceOrientationManager/Classes/UIDevice+SHInterfaceOrientationManager.m"; sourceTree = "<group>"; };
+		1AEAA616DFBBB2361653692A7B64C68E /* SHInterfaceOrientationManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHInterfaceOrientationManager.debug.xcconfig; sourceTree = "<group>"; };
 		1EA10D7EAD87F6F9DAF94E51939ADCF5 /* Pods-SHInterfaceOrientationManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHInterfaceOrientationManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2BA5766422380FE3E098BE2EC58E99DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		30677D3EE85C3DCEB03C356157DE56BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		306B641CBE4AE1D4381491F6CEB54D79 /* UIDevice+SHInterfaceOrientationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+SHInterfaceOrientationManager.m"; path = "SHInterfaceOrientationManager/Classes/UIDevice+SHInterfaceOrientationManager.m"; sourceTree = "<group>"; };
 		35C80DAE929735FF3FB533BF6F5FC792 /* Pods-SHInterfaceOrientationManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHInterfaceOrientationManager_Example.modulemap"; sourceTree = "<group>"; };
-		38B5B53AA91E04F1A6BA322F9405559D /* SHInterfaceOrientationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHInterfaceOrientationManager-prefix.pch"; sourceTree = "<group>"; };
+		37AEF3AEBEEA377165CBCF166AFF83CD /* SHInterfaceOrientationManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SHInterfaceOrientationManager.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		3BF4C68393246998DBBD279D43C705AE /* SHInterfaceOrientationManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHInterfaceOrientationManager; path = SHInterfaceOrientationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D0B34D8610F4CAFFD1E8A0CBF2995F /* Pods-SHInterfaceOrientationManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHInterfaceOrientationManager_Example-Info.plist"; sourceTree = "<group>"; };
-		49BC3C9BFB57DE58B5660245452DCCCE /* SHInterfaceOrientationManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SHInterfaceOrientationManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		450882FCBE4AECD977BEF73F38258471 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		47856FA97537017E0ACA0A843A078F97 /* UIViewController+SHInterfaceOrientationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SHInterfaceOrientationManager.m"; path = "SHInterfaceOrientationManager/Classes/UIViewController+SHInterfaceOrientationManager.m"; sourceTree = "<group>"; };
 		5173576A6C222731C5BCC5F742DE059B /* Pods-SHInterfaceOrientationManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHInterfaceOrientationManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		5323EFFCA9EEAF0502173A0AB9EBBEF4 /* SHInterfaceOrientationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHInterfaceOrientationManager-dummy.m"; sourceTree = "<group>"; };
+		633373FF711CFF7FDC09EAD6E3A64170 /* SHInterfaceOrientationManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SHInterfaceOrientationManager-Info.plist"; sourceTree = "<group>"; };
 		678A59F51D2876C4484BCF07713B0BCC /* Pods-SHInterfaceOrientationManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHInterfaceOrientationManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7F87968C5432FAABF8E8A37A7EE60CB7 /* Pods-SHInterfaceOrientationManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHInterfaceOrientationManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		869201BFFB76549DFA79C2125C4A8AD0 /* SHInterfaceOrientationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHInterfaceOrientationManager.modulemap; sourceTree = "<group>"; };
-		91DE428D85F12A92D8A8387D4ECDEB48 /* UIDevice+SHInterfaceOrientationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SHInterfaceOrientationManager.h"; path = "SHInterfaceOrientationManager/Classes/UIDevice+SHInterfaceOrientationManager.h"; sourceTree = "<group>"; };
+		82E8120645973905CB270AB8585192F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		95477ADB2CDF950C0513C4FF3A317922 /* SHInterfaceOrientationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHInterfaceOrientationManager-prefix.pch"; sourceTree = "<group>"; };
 		9611D77BDF5DA61F17C44734B236911F /* Pods-SHInterfaceOrientationManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHInterfaceOrientationManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9AE18E28AEB7A3B898F9E628C9149313 /* SHInterfaceOrientationManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHInterfaceOrientationManager.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EFCD5CCCBA237D010A69129B75961E9 /* Pods-SHInterfaceOrientationManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SHInterfaceOrientationManager_Example"; path = Pods_SHInterfaceOrientationManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF9D6E887929D1F0F7FCEE35F92C37C4 /* SHInterfaceOrientationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHInterfaceOrientationManager-umbrella.h"; sourceTree = "<group>"; };
+		9F08AF659EF20B5F6B4E4DEDD25993C2 /* UIDevice+SHInterfaceOrientationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SHInterfaceOrientationManager.h"; path = "SHInterfaceOrientationManager/Classes/UIDevice+SHInterfaceOrientationManager.h"; sourceTree = "<group>"; };
 		B25003E40883F94760F2AB4464822DCD /* Pods-SHInterfaceOrientationManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHInterfaceOrientationManager_Example-dummy.m"; sourceTree = "<group>"; };
-		B9190F774DB1A46978CFB03EAB246A93 /* UIViewController+SHInterfaceOrientationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SHInterfaceOrientationManager.h"; path = "SHInterfaceOrientationManager/Classes/UIViewController+SHInterfaceOrientationManager.h"; sourceTree = "<group>"; };
-		BCABE5F707EDD5642408672DDCD2D176 /* SHInterfaceOrientationManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHInterfaceOrientationManager.debug.xcconfig; sourceTree = "<group>"; };
+		CF58ADF467B6220593E4427F25700E27 /* SHInterfaceOrientationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHInterfaceOrientationManager-umbrella.h"; sourceTree = "<group>"; };
 		D25E33AF1A51F11EA76340797F54446C /* Pods-SHInterfaceOrientationManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHInterfaceOrientationManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D455BAE0EC3D88521ABBD4906711D774 /* UIViewController+SHInterfaceOrientationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SHInterfaceOrientationManager.h"; path = "SHInterfaceOrientationManager/Classes/UIViewController+SHInterfaceOrientationManager.h"; sourceTree = "<group>"; };
+		DB871F9DA89CA138C6A87B53917EFBDD /* SHInterfaceOrientationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHInterfaceOrientationManager-dummy.m"; sourceTree = "<group>"; };
+		DC45869C170EC8E8F0003EFCCE43C569 /* SHInterfaceOrientationManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHInterfaceOrientationManager.release.xcconfig; sourceTree = "<group>"; };
+		FF173B1EAB6D8801A510C45A596C8B82 /* SHInterfaceOrientationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHInterfaceOrientationManager.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		5D097A216554BA62B2CEBDECD635641E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				69C74AF0A851931752C537B318D2BC57 /* SHInterfaceOrientationManager */,
+				764FF13BFA492D6EF24DBBAA989437E0 /* SHInterfaceOrientationManager */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -120,18 +120,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		69C74AF0A851931752C537B318D2BC57 /* SHInterfaceOrientationManager */ = {
+		764FF13BFA492D6EF24DBBAA989437E0 /* SHInterfaceOrientationManager */ = {
 			isa = PBXGroup;
 			children = (
-				91DE428D85F12A92D8A8387D4ECDEB48 /* UIDevice+SHInterfaceOrientationManager.h */,
-				0D6221E5124744C90268FABC37DA9AF1 /* UIDevice+SHInterfaceOrientationManager.m */,
-				B9190F774DB1A46978CFB03EAB246A93 /* UIViewController+SHInterfaceOrientationManager.h */,
-				049469A98E033F208590A8B0B2D8877F /* UIViewController+SHInterfaceOrientationManager.m */,
-				EBE054AAB9CFF5769FF992626B91BE64 /* Pod */,
-				D8CC76BB5599A86EE493D23EE3CFD38B /* Support Files */,
+				9F08AF659EF20B5F6B4E4DEDD25993C2 /* UIDevice+SHInterfaceOrientationManager.h */,
+				306B641CBE4AE1D4381491F6CEB54D79 /* UIDevice+SHInterfaceOrientationManager.m */,
+				D455BAE0EC3D88521ABBD4906711D774 /* UIViewController+SHInterfaceOrientationManager.h */,
+				47856FA97537017E0ACA0A843A078F97 /* UIViewController+SHInterfaceOrientationManager.m */,
+				7FF2B979E6CB2094849B3E4601546635 /* Pod */,
+				E0978C77E3DECBBA783BBCBD05D60813 /* Support Files */,
 			);
 			name = SHInterfaceOrientationManager;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		7FF2B979E6CB2094849B3E4601546635 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				450882FCBE4AECD977BEF73F38258471 /* LICENSE */,
+				82E8120645973905CB270AB8585192F3 /* README.md */,
+				37AEF3AEBEEA377165CBCF166AFF83CD /* SHInterfaceOrientationManager.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		8C905B65DF4961EFD22B5F32880D172C /* Products */ = {
@@ -162,29 +172,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8CC76BB5599A86EE493D23EE3CFD38B /* Support Files */ = {
+		E0978C77E3DECBBA783BBCBD05D60813 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				869201BFFB76549DFA79C2125C4A8AD0 /* SHInterfaceOrientationManager.modulemap */,
-				5323EFFCA9EEAF0502173A0AB9EBBEF4 /* SHInterfaceOrientationManager-dummy.m */,
-				04ED7CB8DA6DA25602D2817E115759D0 /* SHInterfaceOrientationManager-Info.plist */,
-				38B5B53AA91E04F1A6BA322F9405559D /* SHInterfaceOrientationManager-prefix.pch */,
-				AF9D6E887929D1F0F7FCEE35F92C37C4 /* SHInterfaceOrientationManager-umbrella.h */,
-				BCABE5F707EDD5642408672DDCD2D176 /* SHInterfaceOrientationManager.debug.xcconfig */,
-				9AE18E28AEB7A3B898F9E628C9149313 /* SHInterfaceOrientationManager.release.xcconfig */,
+				FF173B1EAB6D8801A510C45A596C8B82 /* SHInterfaceOrientationManager.modulemap */,
+				DB871F9DA89CA138C6A87B53917EFBDD /* SHInterfaceOrientationManager-dummy.m */,
+				633373FF711CFF7FDC09EAD6E3A64170 /* SHInterfaceOrientationManager-Info.plist */,
+				95477ADB2CDF950C0513C4FF3A317922 /* SHInterfaceOrientationManager-prefix.pch */,
+				CF58ADF467B6220593E4427F25700E27 /* SHInterfaceOrientationManager-umbrella.h */,
+				1AEAA616DFBBB2361653692A7B64C68E /* SHInterfaceOrientationManager.debug.xcconfig */,
+				DC45869C170EC8E8F0003EFCCE43C569 /* SHInterfaceOrientationManager.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SHInterfaceOrientationManager";
-			sourceTree = "<group>";
-		};
-		EBE054AAB9CFF5769FF992626B91BE64 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2BA5766422380FE3E098BE2EC58E99DE /* LICENSE */,
-				30677D3EE85C3DCEB03C356157DE56BF /* README.md */,
-				49BC3C9BFB57DE58B5660245452DCCCE /* SHInterfaceOrientationManager.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,13 +198,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B863A188E0FF3DD1431BA56CD9BD6083 /* Headers */ = {
+		970A3EB5F61AD63E4C9CA7BD5DDB183F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E8399F3F72C24E12900EE2C3449E25 /* SHInterfaceOrientationManager-umbrella.h in Headers */,
-				3EBAD67D8F73ACF720EC84B0B419D0A5 /* UIDevice+SHInterfaceOrientationManager.h in Headers */,
-				4A18F071FD02F9A8A00A364D03710963 /* UIViewController+SHInterfaceOrientationManager.h in Headers */,
+				817D9D3F487E4FE08C8422885E106947 /* SHInterfaceOrientationManager-umbrella.h in Headers */,
+				A5EABA67CF67F41AEE4EC510DE0FE901 /* UIDevice+SHInterfaceOrientationManager.h in Headers */,
+				48B5D74E028E3734B3D0B902AD227276 /* UIViewController+SHInterfaceOrientationManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,8 +234,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2AF56275D9A737EDCF13F9A6C87634C /* Build configuration list for PBXNativeTarget "SHInterfaceOrientationManager" */;
 			buildPhases = (
-				B863A188E0FF3DD1431BA56CD9BD6083 /* Headers */,
-				82A528F7B478C82EAE90AC8F43719FC3 /* Sources */,
+				970A3EB5F61AD63E4C9CA7BD5DDB183F /* Headers */,
+				ED3854658700F5E9E067DAAF14D01F90 /* Sources */,
 				12E0434C7453821783574564F45865AC /* Frameworks */,
 				AB75D42B777F070A027756B3A0AD20E1 /* Resources */,
 			);
@@ -302,13 +302,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82A528F7B478C82EAE90AC8F43719FC3 /* Sources */ = {
+		ED3854658700F5E9E067DAAF14D01F90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DD21FF82FBBA7C0B7FDDB06D2ABDB08 /* SHInterfaceOrientationManager-dummy.m in Sources */,
-				40600E7B8A96C901E987A3730D9646F0 /* UIDevice+SHInterfaceOrientationManager.m in Sources */,
-				B5F4EDE6CFD1364A48AB73D3FEFEE85E /* UIViewController+SHInterfaceOrientationManager.m in Sources */,
+				CD8EF57ECBC300D7AECB5531895582C5 /* SHInterfaceOrientationManager-dummy.m in Sources */,
+				C69C49B5D29ABBED775ABDF9D23B6991 /* UIDevice+SHInterfaceOrientationManager.m in Sources */,
+				1703E8D6D93D5328A58907D822F2269C /* UIViewController+SHInterfaceOrientationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +420,7 @@
 		};
 		953E3BBC5BE6367953421094AE55791C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AE18E28AEB7A3B898F9E628C9149313 /* SHInterfaceOrientationManager.release.xcconfig */;
+			baseConfigurationReference = DC45869C170EC8E8F0003EFCCE43C569 /* SHInterfaceOrientationManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -452,7 +452,7 @@
 		};
 		AA04032F9B046A953CA0A7258DB8DACA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCABE5F707EDD5642408672DDCD2D176 /* SHInterfaceOrientationManager.debug.xcconfig */;
+			baseConfigurationReference = 1AEAA616DFBBB2361653692A7B64C68E /* SHInterfaceOrientationManager.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
