@@ -28,6 +28,14 @@ FOUNDATION_EXPORT NSString* sh_getStringWithOri(UIInterfaceOrientation ori);
 /// ⚠️⚠️⚠️ 前置依赖"UIApplicationDelegate 的 `- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window` return时 给定支持所有方向 UIInterfaceOrientationMaskAll " ⚠️⚠️⚠️
 @interface UIViewController (SHInterfaceOrientationManager)
 
+// MARK: - Class
+
+/// 设置顶层视图控制的当前屏幕方向（便于在非UIViewController中调用）
+/// - Parameters:
+///   - ori: 目标屏幕方向
+///   - rootVc: 给定的遍历根节点控制器，如果给nil，则默认使用`UIApplication.sharedApplication.delegate.window.rootViewController`
++ (void)sh_forceInterfaceOrientationWith:(UIInterfaceOrientation)ori rootViewController:(nullable UIViewController *)rootVc;
+
 // MARK: -  通知中心
 
 /// 用于处理“内部调整前向导航栈控制器转场动画方向枚举值时会发出该通知”的通知中心对象
